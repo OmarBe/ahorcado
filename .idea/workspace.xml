@@ -9,6 +9,7 @@
     <file path="/application.css" changelist="fba5e734-0652-46b9-94de-81e92bec9c15" time="1368720490544" ignored="false" />
     <file path="/games_controller.rb" changelist="fba5e734-0652-46b9-94de-81e92bec9c15" time="1368724343507" ignored="false" />
     <file path="/game.rb" changelist="fba5e734-0652-46b9-94de-81e92bec9c15" time="1368725159438" ignored="false" />
+    <file path="/Gemfile" changelist="fba5e734-0652-46b9-94de-81e92bec9c15" time="1368729170525" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="16" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+            <state line="7" column="21" selection-start="163" selection-end="163" vertical-scroll-proportion="0.29411766">
               <folding />
             </state>
           </provider>
@@ -64,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="29" selection-start="451" selection-end="451" vertical-scroll-proportion="0.7207207">
+            <state line="25" column="29" selection-start="451" selection-end="451" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -110,13 +111,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/games/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/controllers/games_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/game.rb" />
         <option value="$PROJECT_DIR$/app/views/games/show.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -483,13 +484,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="12" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0">
@@ -534,7 +528,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="451" selection-end="451" vertical-scroll-proportion="0.7207207">
+        <state line="25" column="29" selection-start="451" selection-end="451" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="21" selection-start="163" selection-end="163" vertical-scroll-proportion="0.29411766">
           <folding />
         </state>
       </provider>
