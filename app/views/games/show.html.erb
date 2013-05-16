@@ -1,0 +1,74 @@
+<p id="notice"><%= notice %></p>
+
+<% @nc=params[:char] %>
+<% @encontrado = 0 %>
+
+
+<p>
+  <b>Word:</b>
+  <div id="palabra">
+  <% @ban=@game.word.length %>
+    <% @game.word.upcase.each_char do |c| %>
+      <div class="char">
+        <% if @nc.to_s[c]%>
+          <%= c %>
+          <% @encontrado = @encontrado + 2 %>
+          <% @ban=@ban-1 %>
+
+        <% else %>
+          <%= ' ' %>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</p>
+
+<br />
+<hr />
+
+<% if @encontrado != 0 %>
+    <% @intentos = 7 - (@nc.to_s.length-@encontrado)/2 %>
+<% else %>
+    <% @intentos = 7 - (@nc.to_s.length)/2 %>
+<% end %>
+
+<% if @ban==0 %>
+    <%= link_to 'Haz ganado', new_game_path %>
+<% else %>
+    <% if @intentos==0 %>
+        <%= link_to 'Haz Perdido', new_game_path %>
+    <% else %>
+    <p>
+    <div id="abc">
+        <% @abc='abcdefghijklmnopqrstuvwxyz'.upcase %>
+        <% n=1 %>
+        <% @abc.each_char do |c| %>
+            <div class="char">
+                <% if request.fullpath.to_s.last =~ /\d/ %>
+                    <%= link_to c , request.fullpath + "?char=#{c}+"  %>
+                    <% @intentos = 7 - (@nc.to_s.length)/2 %>
+                <% else %>
+                    <% if params[:char].to_s[c] %>
+
+                    <% else %>
+                        <%= link_to c ,request.fullpath+"#{c}+" %>
+                    <% end %>
+                <% end %>
+            </div>
+        <% n=n+1 %>
+        <% end %>
+    </div>
+</p>
+<% end %>
+<% end %>
+<p>
+<hr />
+
+<%= link_to 'New', new_game_path %>
+</p>
+
+<p>
+  <% if @intentos != nil %>
+    <h1> Te quedan: <%= @intentos %> intentos</h1>
+<% end %>
+</p>
