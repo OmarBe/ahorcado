@@ -13,6 +13,7 @@
     <file path="/_form.html.erb" changelist="fba5e734-0652-46b9-94de-81e92bec9c15" time="1368741598383" ignored="false" />
     <file path="/application.html.erb" changelist="fba5e734-0652-46b9-94de-81e92bec9c15" time="1368741708134" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="fba5e734-0652-46b9-94de-81e92bec9c15" time="1368800480076" ignored="false" />
+    <file path="/database.yml" changelist="fba5e734-0652-46b9-94de-81e92bec9c15" time="1368815974560" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.3482143">
+            <state line="10" column="19" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+            <state line="22" column="28" selection-start="539" selection-end="539" vertical-scroll-proportion="0.58928573">
               <folding />
             </state>
           </provider>
@@ -141,6 +142,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/games/show.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -699,16 +701,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+        <state line="10" column="19" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.3482143">
+        <state line="22" column="28" selection-start="539" selection-end="539" vertical-scroll-proportion="0.58928573">
           <folding />
         </state>
       </provider>
