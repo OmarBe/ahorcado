@@ -11,13 +11,15 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+    background-color: #fff;
+}
 #palabra {
-    border: 2px solid #cc0000;
     overflow: hidden;
 }
 
 #abc {
-    border: 2px solid #6ec9cc;
     overflow: hidden;
 }
 
@@ -31,4 +33,16 @@
     margin: 5px;
     color: #FFF;
     float: left;
+    text-shadow: 0px 0px 0px 0px rgba(f,f,f,.5);
+    text-align: center;
+}
+
+#wrapper {
+    width: 90%;
+    padding: 30px;
+    margin: 10px;
+    margin-left: 2%;
+    background-color: #6ec9cc;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,.3);
 }

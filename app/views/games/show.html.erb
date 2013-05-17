@@ -12,12 +12,14 @@
       <div class="char">
         <% if @nc.to_s[c]%>
           <%= c %>
-          <% @encontrado = @encontrado + 2 %>
+
+            <% @encontrado = @encontrado + 2 %>
           <% @ban=@ban-1 %>
 
         <% else %>
           <%= ' ' %>
         <% end %>
+
       </div>
     <% end %>
   </div>
@@ -70,5 +72,8 @@
 <p>
   <% if @intentos != nil %>
     <h1> Te quedan: <%= @intentos %> intentos</h1>
+    <% @nc#.to_s.split(",").map { |s| s.to_i } %>
 <% end %>
 </p>
+
+
